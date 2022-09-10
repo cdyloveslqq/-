@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>恋爱画板</string>
+    </property>
+    <addaction name="actionlove_painter1"/>
+    <addaction name="actionlove_painter2"/>
+    <addaction name="actionlove_painter3"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>回忆相册</string>
+    </property>
+    <addaction name="actionlet_us_go"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>我们的故事</string>
+    </property>
+    <addaction name="actionstart"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>我们的故事2</string>
+    </property>
+    <addaction name="actionstart_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_6">
+    <property name="title">
+     <string>我们的故事3</string>
+    </property>
+    <addaction name="actionstart_3"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>邓宇影视库</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+   <addaction name="menu_6"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionlove_painter1">
+   <property name="text">
+    <string>love painter1</string>
+   </property>
+  </action>
+  <action name="actionlove_painter2">
+   <property name="text">
+    <string>love painter2</string>
+   </property>
+  </action>
+  <action name="actionlove_painter3">
+   <property name="text">
+    <string>love painter3</string>
+   </property>
+  </action>
+  <action name="actionlet_us_go">
+   <property name="text">
+    <string>let us go!</string>
+   </property>
+  </action>
+  <action name="actionchemistry_test">
+   <property name="text">
+    <string>chemistry test</string>
+   </property>
+  </action>
+  <action name="actionstart">
+   <property name="text">
+    <string>start!</string>
+   </property>
+  </action>
+  <action name="actionstart_2">
+   <property name="text">
+    <string>start!</string>
+   </property>
+  </action>
+  <action name="actionstart_3">
+   <property name="text">
+    <string>start!</string>
+   </property>
+  </action>
+  <action name="actionchemistry_wuji_review">
+   <property name="text">
+    <string>1</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
